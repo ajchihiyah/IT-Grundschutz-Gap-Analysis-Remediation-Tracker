@@ -27,3 +27,15 @@ Remediation Board — Kanban columns (Open, In Progress, In Review, Done) with p
 Evidence Vault — Document repository with validity status for the 3-year BSI audit cycle
 Executive Report — Board-ready summary addressing §66 BSIG-E fiduciary duty with action items, budget estimates, and compliance posture
 All modals, filters, and navigation are fully functional. The data is scoped for a KRITIS Energy Sector entity under NIS2, reflecting the specific German regulatory framework.
+
+## Architecture & Production Path
+
+**Current implementation:** Zero-dependency, single-file vanilla JS (HTML/CSS/JS) —
+deployable in restricted SOC environments with no build step or external dependencies.
+
+**Production implementation path:** Where multi-user, real-time, or enterprise integration
+requirements demand it, the production build is implemented in **React with D3.js/Chart.js**
+for componentized state management, API-driven data layers, and role-based access —
+migrating the current state-driven rendering pattern into a component architecture.
+
+---
