@@ -1,3 +1,6 @@
+
+<img width="1916" height="907" alt="image" src="https://github.com/user-attachments/assets/cb4cc735-c27c-42f8-8160-6b16cd15afab" />
+
 # IT-Grundschutz-Gap-Analysis-Remediation-Tracker
  Comprehensive BSI IT-Grundschutz Security Control Gap Analysis &amp; Remediation Tracker as an interactive HTML widget. 
  BSI IT-Grundschutz Security Control Gap Analysis & Remediation Tracker
